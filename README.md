@@ -1,8 +1,8 @@
-# LibMetalhead
+# LibMetalhead.jl
 
 [![Build Status](https://github.com/cirobr/LibMetalhead.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/cirobr/LibMetalhead.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
-Modified Metalhead.jl models for specific purposes.
+Adapted Metalhead.jl models for specific purposes.
 
 ### Networks:
 * ResNet34(classes::Int=2), 2-64 classes, softmax output activation
