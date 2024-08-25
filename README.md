@@ -13,5 +13,5 @@ Adapted Metalhead.jl models for specific purposes.
 
 ### Versions:
 
-### v0.0.1
+### v0.1.0
 * First commit
