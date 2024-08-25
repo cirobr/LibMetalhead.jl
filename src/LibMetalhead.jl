@@ -2,8 +2,7 @@ module LibMetalhead
 
 
 
-export ResNet50, ResNet34
-export UResNet50, UResNet34
+export ResNet50, ResNet34, UResNet50, UResNet34
 
 import Metalhead, Flux; m=Metalhead
 import Flux: Chain, Dense, Conv, AdaptiveMeanPool, BatchNorm, Dropout,

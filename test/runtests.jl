@@ -1,4 +1,4 @@
-using LibMetalhead; const lm=LibMetalhead
+using LibMetalhead
 using Test
 using Random
 
