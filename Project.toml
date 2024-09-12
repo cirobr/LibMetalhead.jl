@@ -9,8 +9,8 @@ Metalhead = "dbeba491-748d-5e0e-a39e-b530a07fa0cc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
-Flux = "0.14.19"
-Metalhead = "0.9.3"
+Flux = "0.14"
+Metalhead = "0.9"
 julia = "1.10"
 
 [extras]
