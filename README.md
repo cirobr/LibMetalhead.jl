@@ -13,5 +13,8 @@ Adapted Metalhead.jl models.
 
 ### Versions:
 
+### v0.1.1
+* Metalhead stuck at Flux v0.14. Can't change to 0.15 or 0.16.
+
 ### v0.1.0
 * First commit
