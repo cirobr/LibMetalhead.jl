@@ -1,7 +1,7 @@
 name = "LibMetalhead"
 uuid = "5abbab99-9a5e-4e4d-8a2a-3b3537329a68"
 authors = ["Ciro B Rosa <ciro.rosa@alumni.usp.br>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
@@ -9,9 +9,9 @@ Metalhead = "dbeba491-748d-5e0e-a39e-b530a07fa0cc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
-Flux = "0.14"
-Metalhead = "0.9.4"
-julia = "1.10"
+Flux = "0.14 - 0.16"
+Metalhead = "0.9.5"
+julia = "1.10 - 1.11"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

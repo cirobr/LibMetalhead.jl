@@ -5,13 +5,5 @@
 Adapted Metalhead.jl models.
 
 ### Networks:
-* ResNet34(classes::Int=2), 2-64 classes, softmax output activation, pretrained
-* ResNet50(classes::Int=2), 2-64 classes, softmax output activation, pretrained
 * UResNet34((w,h), ch_in, ch_out), softmax (ch_out > 1) or sigmoid (ch_out == 1) output activation
 * UResNet50((w,h), ch_in, ch_out), softmax (ch_out > 1) or sigmoid (ch_out == 1) output activation
-
-
-### Versions:
-
-### v0.1.0
-* First commit

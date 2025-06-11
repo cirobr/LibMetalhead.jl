@@ -1,17 +1,13 @@
 module LibMetalhead
 
 
+export UResNet34, UResNet50
 
-export ResNet50, ResNet34, UResNet50, UResNet34
+import Metalhead, Flux
+import Metalhead: UNet, ResNet, backbone
+import Flux: Chain, σ, sigmoid, softmax
 
-import Metalhead, Flux; m=Metalhead
-import Flux: Chain, Dense, Conv, AdaptiveMeanPool, BatchNorm, Dropout,
-             kaiming_normal,
-             σ, sigmoid, softmax, relu, leakyrelu
-
-include("resnets.jl")
 include("unets.jl")
-
 
 
 end   # module
