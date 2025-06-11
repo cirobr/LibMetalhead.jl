@@ -1,4 +1,4 @@
-function UResNet34((w,h), ch_in::Int, ch_out::Int)
+function UResNet34((w,h)::Tuple{Int,Int}, ch_in::Int, ch_out::Int)
     # [18, 34, 50, 101, 152]
     encoder_backbone = backbone( ResNet(34) )
     activation = ch_out == 1 ? x -> σ(x) : x -> softmax(x; dims=3)
@@ -6,7 +6,7 @@ function UResNet34((w,h), ch_in::Int, ch_out::Int)
 end
 
 
-function UResNet50((w,h), ch_in::Int, ch_out::Int)
+function UResNet50((w,h)::Tuple{Int,Int}, ch_in::Int, ch_out::Int)
     # [18, 34, 50, 101, 152]
     encoder_backbone = backbone( ResNet(50) )
     activation = ch_out == 1 ? x -> σ(x) : x -> softmax(x; dims=3)
