@@ -10,7 +10,7 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
 Flux = "0.14 - 0.16"
-Metalhead = "0.9.5"
+Metalhead = "0.9"
 julia = "1.10 - 1.11"
 
 [extras]
