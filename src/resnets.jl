@@ -2,7 +2,7 @@ function ResNet34(classes::Int=2)
     @assert classes ∈ 2:64 || error("classes must be in 2:64")
     kf = 1e-2
 
-    return Chain(m.backbone( m.ResNet(34; pretrain=true) ),
+    return Chain(m.backbone( m.ResNet(34; pretrain=false) ),
             AdaptiveMeanPool((1,1)),
             Flux.flatten,
             Dense(512, 64; init=kaiming_normal(gain=kf*√512)), BatchNorm(64, leakyrelu),
@@ -16,7 +16,7 @@ function ResNet50(classes::Int=2)
     @assert classes ∈ 2:64 || error("classes must be in 2:64")
     kf = 1e-2
 
-    return Chain(m.backbone( m.ResNet(50; pretrain=true) ),
+    return Chain(m.backbone( m.ResNet(50; pretrain=false) ),
             AdaptiveMeanPool((1,1)),
             Flux.flatten,
             Dense(2048, 512; init=kaiming_normal(gain=kf*√2048)), BatchNorm(512, leakyrelu),
