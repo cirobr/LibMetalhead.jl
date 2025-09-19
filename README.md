@@ -7,7 +7,7 @@ Adapted Metalhead.jl models.
 ### Networks:
 * metalhead_unet(type, framesize, ch_in, ch_out)
 
-where: \\\
+where: \
 type ∈ (18, 34, 50, 101, 152) \\
 framesize = (w,h) \\
 ch_in = 3 (for RGB) \\
