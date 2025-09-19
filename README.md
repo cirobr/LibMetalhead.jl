@@ -5,11 +5,12 @@
 Adapted Metalhead.jl models.
 
 ### Networks:
-* metalhead_unet(type, framesize, ch_in, ch_out)
+```
+metalhead_unet(type, framesize, ch_in, ch_out)
 
-where: \
-type ∈ (18, 34, 50, 101, 152) \\
-framesize = (w,h) \\
-ch_in = 3 (for RGB) \\
-ch_out = 1 => sigmoid output activation \\
-ch_out > 1 => softmax output activation \\
+type ∈ (18, 34, 50, 101, 152)
+framesize = (w,h)
+ch_in = 3 (for RGB)
+ch_out = 1 => sigmoid output activation
+ch_out > 1 => softmax output activation
+```
