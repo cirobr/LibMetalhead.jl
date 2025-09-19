@@ -5,5 +5,11 @@
 Adapted Metalhead.jl models.
 
 ### Networks:
-* UResNet34((w,h), ch_in, ch_out), softmax (ch_out > 1) or sigmoid (ch_out == 1) output activation
-* UResNet50((w,h), ch_in, ch_out), softmax (ch_out > 1) or sigmoid (ch_out == 1) output activation
+* metalhead_unet(type, framesize, ch_in, ch_out)
+
+where:
+type ∈ (18, 34, 50, 101, 152)
+framesize = (w,h)
+ch_in = 3 (for RGB)
+ch_out = 1 => sigmoid output activation
+ch_out > 1 => softmax output activation
