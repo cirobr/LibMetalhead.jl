@@ -1,13 +1,12 @@
 module LibMetalhead
 
 
-export UResNet34, UResNet50
+export metalhead_unet
 
-import Metalhead, Flux
-import Metalhead: UNet, ResNet, backbone
+import Metalhead: ResNet, UNet, backbone
 import Flux: Chain, σ, sigmoid, softmax
 
-include("unets.jl")
+include("unet.jl")
 
 
 end   # module

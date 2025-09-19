@@ -1,3 +1,6 @@
+### v0.2.0
+* metalhead_unet() unifies all U-Net flavors.
+
 ### v0.1.1
 * UResnet34, UResnet50: make pretrained backbone = false (Metalhead.UNet are not pretrained anyway)
 * ResNets are deprecated

@@ -6,5 +6,5 @@ Random.seed!(1234)
 x = randn(Float32, (256,256,3,1))
 
 @testset "LibMetalhead.jl" begin
-    include("./unets-tests.jl")
+    include("./unet-tests.jl")
 end
