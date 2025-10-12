@@ -1,3 +1,6 @@
+### v0.2.1
+* metalhead_unet() backbone changed to pretrain=false.
+
 ### v0.2.0
 * metalhead_unet() unifies all U-Net flavors.
 
