@@ -1,7 +1,7 @@
 name = "LibMetalhead"
 uuid = "5abbab99-9a5e-4e4d-8a2a-3b3537329a68"
 authors = ["Ciro B Rosa <ciro.rosa@alumni.usp.br>"]
-version = "0.2.1"
+version = "0.0.5"
 
 [deps]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
